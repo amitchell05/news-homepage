@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./index.css";
+
 import Header from './components/Header';
 import MainNewsCard from './components/MainNewsCard';
 import RecentNewsCard from './components/RecentNewsCard';
@@ -11,10 +13,12 @@ const App = () => {
             <Header></Header>
             <main>
                 <section>
+                    <h2 className="visually-hidden">Main and Recent News</h2>
                     <MainNewsCard></MainNewsCard>
                     <RecentNewsCard></RecentNewsCard>
                 </section>
                 <section>
+                    <h2 className="visually-hidden">Top News Container</h2>
                     <TopNewsCard></TopNewsCard>
                 </section>
             </main>

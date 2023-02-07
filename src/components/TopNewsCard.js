@@ -20,11 +20,11 @@ const TopNewsCard = () => {
         }
     ];
 
-    const listItems = newsPosts.map((newsPost, index) => {
+    const articles = newsPosts.map((newsPost, index) => {
         return (
             <article key={ newsPost.id }>
-                <h3>{ `0${ index + 1 }` }</h3>
-                <h4>{ newsPost.title }</h4>
+                <h4>{ `0${ index + 1 }` }</h4>
+                <h5>{ newsPost.title }</h5>
                 <p>{ newsPost.description }</p>
             </article>
         )
@@ -32,7 +32,8 @@ const TopNewsCard = () => {
 
     return (
         <section>
-            { listItems }
+            <h3 className="visually-hidden">Top News Articles</h3>
+            { articles }
         </section>
     )
 }
