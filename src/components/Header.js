@@ -1,6 +1,8 @@
 import React from "react";
 
-const Navbar = () => {
+import logo from "../../assets/images/logo.svg";
+
+const Header = () => {
     const navLinks = ["Home", "New", "Popular", "Trending", "Categories"];
 
     const listItems = navLinks.map((link) => {
@@ -12,12 +14,15 @@ const Navbar = () => {
     });
 
     return (
-        <nav>
-            <ul>
-                { listItems }
-            </ul>
-        </nav>
+        <header>
+            <img src={ logo } />
+            <nav>
+                <ul>
+                    { listItems }
+                </ul>
+            </nav>
+        </header>
     )
 }
 
-export default Navbar;
+export default Header;
