@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./index.css";
+import "./App.css";
 
 import Header from './components/Header';
 import MainNewsCard from './components/MainNewsCard';
