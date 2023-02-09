@@ -9,10 +9,10 @@ const MainNewsCard = () => {
     }
 
     return (
-        <article>
+        <article style={{ border: '1px dashed red' }}>
             <h2>{ mainNewsPost.title }</h2>
             <p>{ mainNewsPost.description }</p>
-            <a href="" role="button">{ mainNewsPost.ctaText }</a>
+            <a href="#" role="button">{ mainNewsPost.ctaText }</a>
         </article>
     )
 }

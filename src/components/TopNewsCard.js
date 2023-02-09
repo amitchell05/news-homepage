@@ -31,7 +31,7 @@ const TopNewsCard = () => {
     });
 
     return (
-        <section>
+        <section style={{ border: '1px dashed red' }}>
             <h3 className="visually-hidden">Top News Articles</h3>
             { articles }
         </section>

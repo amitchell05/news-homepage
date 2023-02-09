@@ -23,7 +23,7 @@ const RecentNewsCard = () => {
 
     const listItems = newsPosts.map((newsPost) => {
         return (
-            <article key={ newsPost.id }>
+            <article key={ newsPost.id } >
                 <h4>{ newsPost.title }</h4>
                 <p>{ newsPost.description }</p>
             </article>
@@ -31,7 +31,7 @@ const RecentNewsCard = () => {
     });
 
     return (
-        <section>
+        <section style={{ border: '1px dashed red' }}>
             <h3>{ cardTitle }</h3>
             { listItems }
         </section>

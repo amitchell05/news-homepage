@@ -1,6 +1,10 @@
 import React from "react";
 
+import "./Header.css";
+
 import logo from "../../assets/images/logo.svg";
+import menu from "../../assets/images/icon-menu.svg";
+import menuClose from "../../assets/images/icon-menu-close.svg";
 
 const Header = () => {
     const navLinks = ["Home", "New", "Popular", "Trending", "Categories"];
@@ -15,11 +19,21 @@ const Header = () => {
 
     return (
         <header>
-            <img src={ logo } />
             <nav>
-                <ul>
+                {/* <a href="#">
+                    <img src={ logo } />
+                </a> */}
+                <div>
+                    <a href="#">
+                        LOGO
+                    </a>
+                </div>
+                <div>
+                    <img src={ menu } />
+                </div>
+                {/* <ul>
                     { listItems }
-                </ul>
+                </ul> */}
             </nav>
         </header>
     )

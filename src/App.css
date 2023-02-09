@@ -1,3 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* IDEA 1*/
+/* main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+} */
+
+/* IDEA 2*/
+.test-grid-1 {
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr); */
+}
+
+@media (min-width: 47.938rem) {
+    .test-grid-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.test-grid-2 {
+    display: grid;
+}
+
 /* Resource: https://a11y-guidelines.orange.com/en/web/components-examples/accessible-hiding/ */
 
 .visually-hidden {
