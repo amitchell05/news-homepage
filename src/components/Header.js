@@ -12,7 +12,7 @@ const Header = () => {
     const listItems = navLinks.map((link) => {
         return (
             <li key={link.toLowerCase()}>
-                <a href="#">{link}</a>
+                <a href="#" target="_self">{link}</a>
             </li>
         )
     });
@@ -20,16 +20,13 @@ const Header = () => {
     return (
         <header>
             <nav>
-                {/* <a href="#">
-                    <img src={ logo } />
-                </a> */}
-                <div>
-                    <a href="#">
-                        LOGO
+                <div class="header-logo">
+                    <a href="#" target="_self">
+                        <img src={ logo } alt="logo" />
                     </a>
                 </div>
-                <div>
-                    <img src={ menu } />
+                <div class="header-menu">
+                    <img src={ menu } alt="menu" />
                 </div>
                 {/* <ul>
                     { listItems }
