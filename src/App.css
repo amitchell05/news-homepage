@@ -1,7 +1,17 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+    font-weight: 400 700 800;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body { 
+    font-family: "Inter", sans-serif;
 }
 
 a:link {
