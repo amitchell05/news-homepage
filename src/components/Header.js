@@ -2,9 +2,9 @@ import React from "react";
 
 import "./Header.css";
 
-import logo from "../../assets/images/logo.svg";
-import menu from "../../assets/images/icon-menu.svg";
-import menuClose from "../../assets/images/icon-menu-close.svg";
+import logo from "../assets/images/logo.svg";
+import menu from "../assets/images/icon-menu.svg";
+import menuClose from "../assets/images/icon-menu-close.svg";
 
 const Header = () => {
     const navLinks = ["Home", "New", "Popular", "Trending", "Categories"];
