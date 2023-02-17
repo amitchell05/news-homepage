@@ -1,0 +1,28 @@
+/* Top News */
+
+.top-news {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.top-news__article {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-news__image {
+    display: inline-flex;
+}
+
+.top-news__index {
+    color: hsl(233, 8%, 79%);
+}
+
+.top-news__title {
+    color: hsl(240, 100%, 5%);
+}
+
+.top-news__description {
+    color: hsl(236, 13%, 42%);
+}
