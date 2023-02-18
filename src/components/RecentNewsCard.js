@@ -1,5 +1,3 @@
-import React from "react";
-
 const RecentNewsCard = () => {
 
     const cardTitle = "New";

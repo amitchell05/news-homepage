@@ -1,5 +1,3 @@
-import React from "react";
-
 const MainNewsCard = () => {
 
     const mainNewsPost = {
@@ -12,7 +10,7 @@ const MainNewsCard = () => {
         <article style={{ border: '1px dashed red' }}>
             <h2>{ mainNewsPost.title }</h2>
             <p>{ mainNewsPost.description }</p>
-            <a href="#" role="button" target="_self">{ mainNewsPost.ctaText }</a>
+            <a href="foo" role="button" target="_self">{ mainNewsPost.ctaText }</a>
         </article>
     )
 }

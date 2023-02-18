@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./TopNewsCard.css";
 
 import retroPcImg from "../assets/images/image-retro-pcs.jpg";
