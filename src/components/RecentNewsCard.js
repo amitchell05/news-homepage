@@ -29,7 +29,7 @@ const RecentNewsCard = () => {
     });
 
     return (
-        <section style={{ border: '1px dashed red' }}>
+        <section>
             <h3>{ cardTitle }</h3>
             { listItems }
         </section>

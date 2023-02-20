@@ -9,16 +9,13 @@ function App() {
   return (
     <>
         <Header></Header>
-        <main style={{ border: '1px solid limegreen' }}>
-            <section style={{ border: '1px solid blue' }} class="grid grid--main-news">
+        <main>
+            <section class="grid grid--main-news">
                 <h2 className="visually-hidden">Main and Recent News</h2>
                 <MainNewsCard></MainNewsCard>
                 <RecentNewsCard></RecentNewsCard>
             </section>
-            <section style={{ border: '1px solid blue' }} class="grid">
-                <h2 className="visually-hidden">Top News</h2>
-                <TopNewsCard></TopNewsCard>
-            </section>
+            <TopNewsCard></TopNewsCard>
         </main>
 
         <div className="attribution">

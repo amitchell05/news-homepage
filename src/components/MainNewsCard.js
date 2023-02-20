@@ -7,7 +7,7 @@ const MainNewsCard = () => {
     }
 
     return (
-        <article style={{ border: '1px dashed red' }}>
+        <article>
             <h2>{ mainNewsPost.title }</h2>
             <p>{ mainNewsPost.description }</p>
             <a href="foo" role="button" target="_self">{ mainNewsPost.ctaText }</a>

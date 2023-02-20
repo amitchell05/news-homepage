@@ -30,11 +30,9 @@ const TopNewsCard = () => {
     const articles = newsPosts.map((newsPost, index) => {
         return (
             <article key={ newsPost.id } className="top-news__article">
-                <div className="top-news__image">
-                    <img src={ newsPost.image } alt="retro PC" />
-                </div>
+                <img src={ newsPost.image } alt="retro PC" className="top-news__image" />
                 <div className="top-news__content">
-                    <h4 className="top-news__index">{ `0${ index + 1 }` }</h4>
+                    <div className="top-news__index"></div>
                     <h5 className="top-news__title">{ newsPost.title }</h5>
                     <p className="top-news__description">{ newsPost.description }</p>
                 </div>
@@ -43,8 +41,8 @@ const TopNewsCard = () => {
     });
 
     return (
-        <section style={{ border: '1px dashed red' }} className="top-news">
-            <h3 className="visually-hidden">Top News Articles</h3>
+        <section className="grid grid--top-news top-news">
+            <h2 className="visually-hidden">Top News</h2>
             { articles }
         </section>
     )

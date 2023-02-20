@@ -18,6 +18,10 @@ a:link {
   text-decoration: none;
 }
 
+p {
+  font-size: 0.938rem;
+}
+
 .grid {
   display: grid;
 }
@@ -25,6 +29,10 @@ a:link {
 @media (min-width: 47.938rem) {
   .grid--main-news {
       grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--top-news {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
