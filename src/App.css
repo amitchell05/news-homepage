@@ -27,12 +27,8 @@ p {
 }
 
 @media (min-width: 47.938rem) {
-  .grid--main-news {
-      grid-template-columns: repeat(2, 1fr);
-  }
-
-  .grid--top-news {
-    grid-template-columns: repeat(3, 1fr);
+  .grid {
+      grid-template-columns: repeat(3, 1fr);
   }
 }
 

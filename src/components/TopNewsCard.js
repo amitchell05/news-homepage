@@ -41,10 +41,10 @@ const TopNewsCard = () => {
     });
 
     return (
-        <section className="grid grid--top-news top-news">
+        <>
             <h2 className="visually-hidden">Top News</h2>
             { articles }
-        </section>
+        </>
     )
 }
 

@@ -18,12 +18,12 @@ const Header = () => {
     return (
         <header>
             <nav>
-                <div class="header-logo">
+                <div className="header-logo">
                     <a href="foo" target="_self">
                         <img src={ logo } alt="logo" />
                     </a>
                 </div>
-                <div class="header-menu">
+                <div className="header-menu">
                     <img src={ menu } alt="menu" />
                 </div>
                 {/* <ul>
