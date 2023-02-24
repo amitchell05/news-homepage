@@ -1,0 +1,35 @@
+/* Top News */
+.top-news {
+    counter-reset: article;
+
+    .top-news__article {
+        display: flex;
+        flex-direction: row;
+
+        .top-news__img {
+            max-height: 130px;
+        }
+        
+        .top-news__index {
+            color: hsl(233, 8%, 79%);
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .top-news__index::before {
+            counter-increment: article;
+            content: "0" counter(article);
+        }
+        
+        .top-news__title {
+            color: hsl(240, 100%, 5%);
+            font-size: 1.125rem;
+            font-weight: 800;
+        }
+        
+        .top-news__description {
+            color: hsl(236, 13%, 42%);
+        }    
+    }
+}
+

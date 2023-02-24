@@ -1,4 +1,4 @@
-import "./TopNewsCard.css";
+import "./TopNewsCard.scss";
 
 import retroPcImg from "../assets/images/image-retro-pcs.jpg";
 import topLaptopsImg from "../assets/images/image-top-laptops.jpg";
