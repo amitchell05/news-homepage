@@ -24,11 +24,12 @@ p {
 
 .grid {
   display: grid;
+  gap: 2rem;
 }
 
 @media (min-width: 47.938rem) {
   .grid--main-news {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
   }
 
   .grid--top-news {

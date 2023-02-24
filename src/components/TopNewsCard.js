@@ -27,7 +27,7 @@ const TopNewsCard = () => {
         }
     ];
 
-    const articles = newsPosts.map((newsPost, index) => {
+    const posts = newsPosts.map((newsPost, index) => {
         return (
             <article key={ newsPost.id } className="top-news__article">
                 <img src={ newsPost.image } alt="retro PC" className="top-news__image" />
@@ -41,10 +41,9 @@ const TopNewsCard = () => {
     });
 
     return (
-        <section className="grid grid--top-news top-news">
-            <h2 className="visually-hidden">Top News</h2>
-            { articles }
-        </section>
+        <>
+            { posts }
+        </>
     )
 }
 

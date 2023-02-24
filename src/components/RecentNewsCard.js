@@ -19,20 +19,20 @@ const RecentNewsCard = () => {
         }
     ];
 
-    const listItems = newsPosts.map((newsPost) => {
+    const posts = newsPosts.map((newsPost) => {
         return (
-            <article key={ newsPost.id } >
-                <h4>{ newsPost.title }</h4>
-                <p>{ newsPost.description }</p>
+            <article key={ newsPost.id } className="recent-news__post">
+                <h4 className="post__title">{ newsPost.title }</h4>
+                <p className="post__desc">{ newsPost.description }</p>
             </article>
         )
     });
 
     return (
-        <section>
-            <h3>{ cardTitle }</h3>
-            { listItems }
-        </section>
+        <div className="recent-news">
+            <h3 className="recent-news__title">{ cardTitle }</h3>
+            { posts }
+        </div>
     )
 }
 

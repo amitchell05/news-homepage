@@ -4,17 +4,9 @@ nav {
     align-items: center;
 }
 
-/* ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-} */
-
-.header-logo,
-.header-logo a,
-.header-menu,
-.header-menu img {
+.logo,
+.logo a,
+.menu,
+.menu img {
     display: inline-flex;
 }

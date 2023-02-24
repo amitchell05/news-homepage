@@ -1,13 +1,11 @@
 /* Top News */
 .top-news {
     counter-reset: article;
-    gap: 2rem;
 }
 
 .top-news__article {
     display: flex;
     flex-direction: row;
-    border: 1px solid magenta;
 }
 
 .top-news__image {
