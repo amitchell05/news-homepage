@@ -1,3 +1,5 @@
+import "./MainNewsCard.css";
+
 import heroDesktopImg from "../assets/images/image-web-3-desktop.jpg";
 import heroMobileImg from "../assets/images/image-web-3-mobile.jpg";
 import useWindowWidth from '../hooks/useWindowWidth';
@@ -13,14 +15,14 @@ const MainNewsCard = () => {
     const windowWidth = useWindowWidth();
 
     return (
-        <article className="news-hero">
+        <article className="main-news">
             {
-                windowWidth >= 768 ? <img src={heroDesktopImg} alt="puzzle pieces" />
-                : <img src={heroMobileImg} alt="puzzle pieces" />
+                windowWidth >= 768 ? <img src={heroDesktopImg} alt="puzzle pieces" className="main-news__img" />
+                : <img src={heroMobileImg} alt="puzzle pieces" className="main-news__img" />
             }
-            <h2 className="news-hero__title">{ mainNewsPost.title }</h2>
-            <p className="news-hero__desc">{ mainNewsPost.description }</p>
-            <a href="foo" role="button" target="_self" className="news-hero__btn">{ mainNewsPost.ctaText }</a>
+            <h2 className="main-news__title">{ mainNewsPost.title }</h2>
+            <p className="main-news__desc">{ mainNewsPost.description }</p>
+            <a href="foo" role="button" target="_self" className="main-news__btn">{ mainNewsPost.ctaText }</a>
         </article>
     )
 }

@@ -1,3 +1,5 @@
+import "./RecentNewsCard.css";
+
 const RecentNewsCard = () => {
 
     const cardTitle = "New";
