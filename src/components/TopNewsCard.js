@@ -29,7 +29,7 @@ const TopNewsCard = () => {
 
     const posts = newsPosts.map((newsPost, index) => {
         return (
-            <article key={ newsPost.id } className="top-news__article">
+            <article key={ newsPost.id } className="top-news__article" style={{ border: "1px solid cadetblue" }}>
                 <img src={ newsPost.image } alt="retro PC" className="top-news__img" />
                 <div className="top-news__content">
                     <div className="top-news__index"></div>

@@ -1,0 +1,23 @@
+/* Recent News Card */
+.recent-news {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+
+.recent-news__post {
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.recent-news__title {
+    color: hsl(35, 77%, 62%);
+    font-size: 2rem;
+}
+
+.post__title {
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.post__desc {
+    color: hsl(233, 8%, 79%);
+}

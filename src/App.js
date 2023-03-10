@@ -10,12 +10,12 @@ function App() {
     <>
         <Header></Header>
         <main>
-            <section className="grid grid--main-news">
-                <h2 className="visually-hidden">Main and Recent News</h2>
-                <MainNewsCard></MainNewsCard>
-                <RecentNewsCard></RecentNewsCard>
+            <section className="grid">
+              <h2 className="visually-hidden">Main and Recent News</h2>
+              <MainNewsCard></MainNewsCard>
+              <RecentNewsCard></RecentNewsCard>
             </section>
-            <section className="grid grid--top-news top-news">
+            <section className="grid top-news">
               <h2 className="visually-hidden">Top News</h2>
               <TopNewsCard></TopNewsCard>
             </section>

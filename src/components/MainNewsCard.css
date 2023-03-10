@@ -1,4 +1,10 @@
 /* Main News */
+@media (min-width: 47.938rem) {
+    .main-news {
+        grid-column: 1 / 3;
+    }
+}
+
 .main-news__img {
     width: 100%;
     height: auto;
